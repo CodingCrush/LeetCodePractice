@@ -15,7 +15,7 @@ class Solution(object):
         """
         def combine_vals(root):
             if not root:
-                return "-"
+                return " "
             else:
                 return str(root.val)+str(combine_vals(root.left))+str(combine_vals(root.right))
 
